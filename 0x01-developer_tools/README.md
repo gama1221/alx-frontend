@@ -2,8 +2,8 @@
 
 <div align="center">
 
-  <h3><b>ALX Frontend</b></h3>
-
+  <h3><b>ALX Frontend </b></h3>
+  <h5><b>0x01-developer_tools</b></h5>
 </div>
 
 <!-- TABLE OF CONTENTS -->
