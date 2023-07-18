@@ -9,10 +9,8 @@
  */
 
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -53,12 +51,9 @@ h1 {
  */
 
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -67,10 +62,8 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -90,12 +83,9 @@ a {
  */
 
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -115,10 +105,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -174,14 +162,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -190,8 +174,7 @@ textarea {
  */
 
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -201,8 +184,7 @@ input {
  */
 
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
@@ -256,18 +238,12 @@ fieldset {
  */
 
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -293,10 +269,8 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
@@ -314,10 +288,8 @@ textarea {
  */
 
 [type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -334,10 +306,8 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -377,183 +347,204 @@ template {
 [hidden] {
   display: none;
 }
-
-/* =======================
+        /* =======================
             End of normalize.css 
         =========================*/
 
 /* ================== variables for colors =====================*/
 :root {
-  --color-primary: #d73953;
-  --color-black: #090909;
-  --color-white: #ffffff;
-  --color-light-grey: #f3f3f3;
-  --color-dark-grey: #353535;
-  --text-color: var(--color-black);
-  --section-title-color: var(--color-black);
+    --color-primary: #d73953;
+    --color-black : #090909;
+    --color-white : #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+    --section-title-color:var(--color-black);
 
-  /* ================== variables for font family =====================*/
-  --font-family-base: "Open Sans" "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-family-title: "Raleway" "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* ================== variables for font family =====================*/
+    --font-family-base: "Open Sans" "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Raleway" "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-  /* ============== variables for fonts sizes =================*/
-  --font-size-small: 1.2rem;
-  --font-size-medium: 1.6rem;
-  --font-size-large: 1.8rem;
-  --font-size-x-large: 2.3rem;
-  --font-size-xx-large: 4.8rem;
+/* ============== variables for fonts sizes =================*/
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
 
-  /* ================ variables for font-weight ======================= */
-  --font-weight-regular: 400;
-  --font-weight-bold: 700;
+/* ================ variables for font-weight ======================= */
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
 
-  /* ================== Variables for line heights ===================*/
-  --line-height-small: 1.2;
-  --line-height-base: 1.5;
-  --line-height-big: 1.8;
+/* ================== Variables for line heights ===================*/
+    --line-height-small:1.2;
+    --line-height-base:1.5;
+    --line-height-big:1.8; 
 
-  /* ================= Variables for alignment =================*/
-  --section-header-align: center;
-  --section-footer-align: center;
+/* ================= Variables for alignment =================*/
+    --section-header-align:center;
+    --section-footer-align:center; 
 
-  /* ================= Variables for transformations ==================*/
-  --section-tagline-transform: uppercase;
+/* ================= Variables for transformations ==================*/    
+    --section-tagline-transform:uppercase;
 
-  /* ================ Variables for margins ================== */
-  --section-title-margin: 0;
-  --section-tagline-margin: 0;
+ /* ================ Variables for margins ================== */   
+    --section-title-margin: 0;
+    --section-tagline-margin: 0;
 
-  /* ================= variables for padding ================== */
-  --section-padding: 5rem;
-  --section-header-padding: 0 0 3rem;
-  --section-body-padding: 0 0 3rem;
-  --section-footer-padding: 3rem 0 0;
-  --footer-padding: 5rem 0 1rem;
+/* ================= variables for padding ================== */
+    --section-padding:5rem;
+    --section-header-padding:0 0 3rem;
+    --section-body-padding:0 0 3rem;
+    --section-footer-padding:3rem 0 0;
+    --footer-padding:5rem 0 1rem;
 
-  /*=========== all menus custom properties =====================*/
-  --nav-item-font-family: var(--font-family-title);
-  --nav-item-font-weight: var(--font-weight-bold);
-  --nav-item-font-size: var(--font-size-medium);
-  --nav-item-letter-spacing: 0.04rem;
-  --nav-item-display: inline-block;
-  --nav-item-margin: 0 0 3rem;
-  --nav-item-link-hover: var(--color-primary);
+/*=========== all menus custom properties =====================*/ 
+    --nav-item-font-family: var(--font-family-title);
+    --nav-item-font-weight: var(--font-weight-bold);
+    --nav-item-font-size: var(--font-size-medium);
+    --nav-item-letter-spacing: 0.04rem;
+    --nav-item-display: inline-block;
+    --nav-item-margin: 0 0  3rem;
+    --nav-item-link-hover: var(--color-primary);
+
+/* ====================== Button Styling ========================= */
+  --button-display: inline-block;
+  --button-padding: 1.5rem 3rem;
+  --button-border: 0.2rem solid var(--color-primary);
+  --button-color: var(--color-black);
+  --button-text-decoration: none;
+  --button-font-size: var(--font-size-large);
+  --button-hover-color: var(--color-white);
+  --button-hover-text-decoration: none;
+  --button-hover-background: var(--color-primary);
+
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
+*, *:before, *:after {
+    box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth;
-  font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 
 body {
-  background-color: var(--text-color);
-  font-family: var(--font-family-base);
-  font-size: var(--font-size-medium);
-  font-weight: var(--font-weight-regular);
-  line-height: var(--line-height-base);
+    background-color: var(--text-color); 
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-base);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--font-family-title);
-  font-weight: var(--font-weight-bold);
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
 }
 
-
+/* =========== anchor links ===================== */
 
 a:link {
-  background-color: var(--text-color);
-  text-decoration: none;
+    background-color: var(--text-color);
+    text-decoration: none;
 }
 
 a:visited {
-  font-style: italic;
+    font-style: italic;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 a:active {
-  background-color: var(--color-light-grey);
+    background-color: var(--color-light-grey);
+}
+
+/*============== Button ===========*/
+.button {
+  display: var(--button-display);
+  padding: var(--button-padding);
+  border: var(--button-border);
+  font-size: var(--button-font-size);
+  color: var(--button-color);
+  text-decoration: var(--button-text-decoration);
+}
+
+.button:hover {
+    color: var(--button-hover-color);
+    text-decoration: var(--button-hover-text-decoration);
+    background-color: var(--button-hover-background);
 }
 
 .visually-hidden {
-  display: none;
+    display: none;
 }
 
 .card-category {
-  background-color: var(--color-primary);
+    background-color: var(--color-primary);
 }
 
-.section {
+.section{
   padding: var(--section-padding);
 }
 
-.section-header {
-  text-align: var(--section-header-align);
-  padding: var(--section-header-padding);
+.section-header{
+    text-align: var(--section-header-align);
+    padding: var(--section-header-padding);
 }
 
-.section-body {
+.section-body{
   padding: var(--section-body-padding);
 }
 
-.section-footer {
+.section-footer{
   padding: var(--section-footer-padding);
   text-align: var(--section-footer-align);
 }
 
-.section-title {
-  font-family: var(--font-family-title);
-  font-size: var(--font-size-xx-large);
-  font-weight: var(--font-weight-bold);
-  margin: var(--section-title-margin);
-  color: var(--section-title-color);
+.section-title{
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
+    margin: var(--section-title-margin);
+    color: var(--section-title-color);
 }
 
 .section-tagline {
-  background-color: var(--color-primary);
-  font-family: var(--font-family-title);
-  text-transform: var(--section-tagline-transform);
-  font-weight: var(--font-weight-bold) margin: var(--section-tagline-margin);
+    background-color: var(--color-primary);
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold)
+    margin: var(--section-tagline-margin);
 
 }
 
-.container {
-  width: 960px;
-  margin-right: auto;
-  margin-left: auto;
+.container{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.footer {
+.footer{
   padding: var(--footer-padding);
 }
 
 /*=============== menus =============== */
-.navbar-menu {
+.navbar-menu{
   float: right;
 }
 
-.nav {
+.nav{
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
 }
 
-.nav .nav-item {
+.nav .nav-item{
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -562,11 +553,10 @@ a:active {
   margin: var(--nav-item-margin);
 }
 
-.nav .nav-link {
+.nav .nav-link{
   display: block;
   padding: 0.5rem 1rem;
 }
-
 .nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
@@ -585,6 +575,7 @@ ul.row {
   width: 50%;
 }
 
+/* ========= Footer ========== */
 .footer-copyright {
   margin: 0;
   font-size: var(--font-size-small);
@@ -595,13 +586,68 @@ ul.row {
   text-align: right;
 }
 
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
+.footer-address {
+  color: var(--text-color);
 }
 
+.social-link {
+  display: block;
+}
+
+.social-link > svg {
+  fill: var(--text-color);
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*================== Simplify the column (col-) selector */
 [class^="col-"] {
   float: left;
   padding: 0.5rem;
+}
+
+/*================ Add a dark theme to sections ===================== */
+[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    --button-color: var(--color-white);
+    background-color: var(--color-black);
+
+}
+
+/* ============ Services ============== */
+.card-services .card-title {
+    margin: 0;
+}
+
+.card-services a {
+    display: block;
+    padding: 2rem;
+    background-color: var(--color-light-grey);
+}
+
+.card-services a:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    text-decoration: none;
+}
+
+.card-testimonial {
+  text-align: center;
+}
+
+.card-testimonial .card-avatar {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+}
+
+.card-testimonial .card-quote cite {
+  display: block;
+  padding-top: 1rem;
+  color: var(--color-primary);
 }
