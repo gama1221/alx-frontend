@@ -275,10 +275,6 @@ h6 {
     text-align: var(--section-footer-align);
 }
 
-.footer {
-    padding: var(--footer-padding);
-}
-
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -316,4 +312,7 @@ a:hover {
 
 a:active {
     background-color: var(--color-light-grey);
+}
+.footer {
+    padding: var(--footer-padding);
 }
