@@ -51,4 +51,4 @@ Read or watch:
 ---
 
 ## Author
-* **Joseph Mahiuha** - [Mahiuha](https://github.com/Mahiuha)
+* **Getinet Amare ** - [gama1221](https://github.com/gama1221)
